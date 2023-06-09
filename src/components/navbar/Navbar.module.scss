@@ -1,0 +1,20 @@
+@use "./../../styles/partials/base/variables" as *;
+@use "./../../styles/partials/base/mixins" as *;
+.navbar {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  background-color: var(--bg-color-2);
+  height: 10vh;
+
+  &__content {
+    height: 10vh;
+    @include flexbox(row, center, center);
+    gap: 3rem;
+    img {
+      width: 8rem;
+      height: auto;
+    }
+  }
+}

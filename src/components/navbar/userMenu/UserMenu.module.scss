@@ -1,0 +1,19 @@
+@use "./../../../styles/partials/base/variables" as *;
+@use "./../../../styles/partials/base/mixins" as *;
+.menu {
+  @include flexbox(row, center, center);
+  gap: 3rem;
+  li {
+    list-style: none;
+    a {
+      transition: all 0.3s ease-in-out;
+      text-decoration: none;
+      color: var(--text-color);
+      font-size: 1em;
+      font-weight: 500;
+      &:hover {
+        color: var(--main-color);
+      }
+    }
+  }
+}

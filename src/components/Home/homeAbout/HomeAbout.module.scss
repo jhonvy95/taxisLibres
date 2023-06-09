@@ -1,0 +1,50 @@
+@use "./../../../styles/partials/base/variables" as *;
+@use "./../../../styles/partials/base/mixins" as *;
+
+.row {
+  @include flexbox(row, center, flex-start);
+  width: 100%;
+  margin-top: 5rem;
+
+  @include devices(md) {
+    @include flexbox(column, center, center);
+  }
+}
+
+.column {
+  width: 50%;
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  @include devices(md) {
+    width: 100%;
+  }
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+}
+
+.content {
+  h3 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color: #121939;
+    position: relative;
+    letter-spacing: 0.5px;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 30px;
+  }
+  div {
+    font-size: 15px;
+    line-height: 23px;
+    color: #121939;
+    font-weight: 600;
+  }
+}
+
+.image {
+}

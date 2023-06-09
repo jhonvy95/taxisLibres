@@ -1,0 +1,62 @@
+@use "./../../../styles/partials/base/variables" as *;
+@use "./../../../styles/partials/base/mixins" as *;
+
+.homeAwards {
+  width: 100%;
+
+  h1 {
+    text-align: center;
+    line-height: 70px;
+    width: 100%;
+    font-size: 60px;
+    font-weight: 700;
+    padding: 20px 0;
+    color: #1b1f3b;
+    margin-bottom: 1.5rem;
+  }
+}
+
+.content {
+  @include flexbox(column, center, center);
+  gap: 0.5rem;
+
+  &__image {
+    width: 15rem;
+    height: 15rem;
+    object-fit: cover;
+  }
+
+  &__information {
+    @include flexbox(column, center, center);
+    width: 100%;
+    text-align: left;
+
+    h3 {
+      text-align: left;
+      font-weight: 600;
+      margin-top: -30px;
+      color: #121939;
+      font-size: 1.2rem;
+      line-height: 18px;
+      margin-bottom: 1rem;
+    }
+
+    ol > li {
+      color: #121939;
+      font-size: 0.9rem;
+      text-align: left;
+      line-height: 18px;
+      list-style: circle;
+      margin-top: 0.5rem;
+    }
+  }
+}
+
+.row {
+  @include flexbox(row, center, flex-start);
+  width: 100%;
+  gap: 5rem;
+  @include devices(md) {
+    @include flexbox(column, center, center);
+  }
+}
