@@ -1,5 +1,5 @@
 # taxisLibres
- Este repositorio contiene el código y los recursos para una Landing Page de la hackathon "Taxis Libres". La página promociona el evento y permite el registro de participantes. Está desarrollada con React js, HTML, CSS (SCSS) y JavaScript (TypeScript), con un diseño moderno y responsive. Se anima a colaborar y mejorar el proyecto.
+ Este repositorio contiene el código y los recursos para una Landing Page de la hackathon "Taxis Libres". La página promociona el evento y permite el registro de participantes. Está desarrollada con React js, HTML, CSS (SCSS) y JavaScript (TypeScript), Adobe Illustrator y Photoshop con un diseño moderno y responsive. Se anima a colaborar y mejorar el proyecto.
  
 ![App Screenshot](https://scontent-bog1-1.xx.fbcdn.net/v/t39.30808-6/352389569_6126839180766190_4706009805030751455_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=0debeb&_nc_ohc=I1xylB5KmRQAX8-fkoO&_nc_ht=scontent-bog1-1.xx&oh=00_AfCNBZZog1bvHG_up3aUl3QuGJmGNVOI-xO_JfByYBZXFQ&oe=6487C624)
 
